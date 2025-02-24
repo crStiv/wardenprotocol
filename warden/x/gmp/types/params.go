@@ -19,7 +19,7 @@ func (p Params) Validate() error {
 		return fmt.Errorf("gmp_address can not be empty")
 	}
 	if p.FeeRecipient == "" {
-		return fmt.Errorf("gmp_fee recipient can not be empty")
+		return fmt.Errorf("gmp_fee_recipient can not be empty")
 	}
 	return nil
 }
